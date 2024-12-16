@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Luckiest+Guy&display=swap');
+
+/* basic css reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{ margin: 0; }
+img{
+    display:block;
+    max-width: 100%;
+}
+/* basic css reset */
+main{
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+main h1{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#players{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    height: 2.5rem;
+    margin: 1rem;
+}
+
+#start-btn{
+    height: 2.5rem;
+    color: white;
+    background-color: #16405B;
+}
+
+#card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+.boxes{
+    border-style: solid;
+    padding: 50px 1.5rem;
+    text-align: bottom;
+    background-color: #6495ED;
+    color: white;
+    border-color: black;
+}
+
+#main-board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.dice-section{
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.dice-area{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#scorecard{
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    font-size: 3rem;
+}
+
+.shut{
+    background-color: red;
+    color: #16405B;
+    border-color: #16405B;
+}
+
+#winner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    height: 2.5rem;
+    margin: 1rem;
+}
